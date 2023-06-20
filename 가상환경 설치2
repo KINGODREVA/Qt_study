@@ -68,3 +68,9 @@ $ source ~/.bashrc
 - (env)$ pip install matplotlib
 - (env)$ conda install -c conda-forge matplotlib
 
+## conda 설치가능한 파이썬 버전 검색
+## conda 원하는 버전의 파이썬으로 변경
+- (env)$ conda search python
+
+
+
