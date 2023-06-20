@@ -1,4 +1,4 @@
-## conda 다운로드
+# conda 다운로드
 https://webnautes.tistory.com/1499 
 
 ## 우분투
@@ -50,3 +50,21 @@ $ source ~/.bashrc
 
 ## pip 이용
 - $ pip3 install 패키지명
+
+
+
+
+# 텐서플로우 설치
+
+## 설치할 환경을 활성화(cpu ver.)
+- (env)$ pip install tensorflow
+- (env)$ conda install tensorflow
+
+## opencv 설치
+- (env)$ pip install opencv-contrib-python
+- (env)$ conda install -c conda-forge opencv-contrib-python
+
+## matplotlib 설치
+- (env)$ pip install matplotlib
+- (env)$ conda install -c conda-forge matplotlib
+
