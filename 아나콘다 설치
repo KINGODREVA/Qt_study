@@ -1,3 +1,27 @@
-1. conda 다운로드
-2. https://docs.conda.io/en/latest/miniconda.html
-3. https://webnautes.tistory.com/1499 또는 https://smoothiecoding.kr/%EB%AF%B8%EB%8B%88%EC%BD%98%EB%8B%A4-wsl2-vsc-%ED%8C%8C%EC%9D%B4%EC%8D%AC/
+## conda 다운로드
+https://webnautes.tistory.com/1499 
+
+## conda 활성화
+- $ conda actiate
+
+## conda 가상환경 생성
+- $ conda create -n newenv pyhton=3.8
+
+## conda 가상환경 조회
+- $ conda env list
+
+## newenv 가상환경 활성화
+- $ conda activate newenv
+
+## 가상환경 삭제
+- $ conda env remove -n newenv
+
+## 패키지설치 명령
+### 기본 conda 설치 방법
+- $ conda install 패키지명
+
+## conda-forge 저장소를 이용
+- $ conda install -c conda-forge 패키지명
+
+## pip 이용
+- $ pip3 install 패키지명
