@@ -73,4 +73,13 @@ $ source ~/.bashrc
 - (env)$ conda search python
 
 
+## 참고
+- https://yhkim4504.tistory.com/13
+- https://github.com/ultralytics/yolov5
+
+## 해당환경 안에서 진행
+- (torchenv) $ pip install ultralytics
+
+## yolo github 에서 제공된 requirement.txt 를 이용해 패키지를 설치(필수)
+- (torchenv) $ pip install -r requirements.txt
 
